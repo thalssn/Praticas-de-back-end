@@ -22,10 +22,10 @@ console.log(`${n1} elevado a ${n2} é igual a ${potencia}`);
 console.log(`a raiz de ${n1} é: ${raiz1}`);
 console.log(`a raiz de ${n2} é: ${raiz2}`);
 
-let delta = n2**2 - (4*n1*n3)
-let positiva = (n2 + delta)/2*n1
-let negativa = (n2 - delta)/2*n1
+let delta = n2**2 - 4*n1*n3
+let x1 = ((-n2) + delta ** (1/2))/2*n1
+let x2 = ((-n2) - delta ** (1/2))/2*n1
 
 console.log(`Delta igual a: ${delta}`);
-console.log(`X1 é de: ${positiva}`);
-console.log(`X2 é de: ${negativa}`);
+console.log(`X1 é de: ${x1}`);
+console.log(`X2 é de: ${x2}`);
