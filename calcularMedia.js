@@ -21,10 +21,13 @@ if (media >=7 && qtdFaltas <=10){
     //console.log(typeof(aprovado)) exibir no console tipo da variável
 }else if(media>=3 && media < 7 && qtdFaltas <= 10){
     recuperacao = true;
-    // console.log(aprovado) exibir no console conteúdo da variável
-    // console.log(typeof(aprovado)) exibir no console tipo da variável
+    //console.log(recuperacao) exibir no console conteúdo da variável
+    //console.log(typeof(recuperacao)) exibir no console tipo da variável
+
 }else{
     aprovado = false;
+    // console.log(aprovado) exibir no console conteúdo da variável
+    // console.log(typeof(aprovado)) exibir no console tipo da variável
 }
 
 if (aprovado === true){
