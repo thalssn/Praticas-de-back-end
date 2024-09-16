@@ -23,5 +23,7 @@ switch(escolha){
        break;
    case 4:
        alert("Encerrando internet baking");
-       break;  
+       break; 
+    default:
+        alert("Você não escolheu uma opção válida");
 }
