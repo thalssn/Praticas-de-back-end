@@ -1,10 +1,10 @@
 let nota = prompt("digite nota");
 let conceito; 
 
-nota = Math.floor(nota/10);
+nota = Math.floor(nota/10); //Math.floor arrendonda o numero da variável
 alert(nota);
 
-switch(nota){
+switch(nota){   // com base no valor da variável nota o switch case atribui novos valores a variável conceito 
 	case 10:
     	conceito = 'A'
         alert(conceito);
@@ -34,3 +34,5 @@ switch(nota){
         alert(conceito)
         break
 }
+
+//Após atribuir novos valores a variável conceito o bloco exibe por meio do alert

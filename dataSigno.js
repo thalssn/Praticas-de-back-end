@@ -1,6 +1,6 @@
 let signo = prompt("Digite signo")
 
-switch(signo.toLocaleLowerCase()){
+switch(signo.toLocaleLowerCase()){ //toLocaleLowerCase é uma função que transforma todas as letras em minusculas
     case "aries": 
         alert("De 21 de Março até 19 de Abril")
         break;

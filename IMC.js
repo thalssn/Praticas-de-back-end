@@ -2,7 +2,7 @@ let peso = Number(prompt("Digitar peso: "))
 let altura = Number(prompt("Digitar altura: "))
 
 
-let imc = (peso/(altura**2)).toFixed(2);
+let imc = (peso/(altura**2)).toFixed(2); //toFixed(2) define o número de casas decimais 
 
 
 

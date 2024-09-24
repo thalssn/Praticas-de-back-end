@@ -1,7 +1,9 @@
 let divida = parseInt(prompt("Digite o valor da dívida"));
 
+
 while (divida > 0) {
     let descontar = Number(prompt("Digite o valor a ser pago"));
+    //Enquanto a divida for maior que 0 o prompt aparece
     
     if (descontar > divida) {
         alert(`O valor inserido é maior que sua dívida. Sua dívida atual é de ${divida}.`);

@@ -1,22 +1,24 @@
 let n1, n2, qtdFaltas, media, calculo, aprovado, recuperacao, isValid;
+//criação de variáveis em linha única
 
     
 n1 = parseFloat(prompt("Digitar n1"));
 n2 = parseFloat(prompt("Digitar n2"));
 qtdFaltas = prompt("Digite a quantidade de faltas: ")
 
+//obtencção de dados para os cálculos
+
 media = (n1+n2)/2;
 recuperacao = false;
 isValid = true;
-
-//console.log(media);
-
 calculo = media;
+
+//Definição da fórmula de média e dos valores das váriaveis;
 
 console.log(calculo);
 console.log(typeof(calculo));
 
-if(isNaN(n1) || isNaN(n2)){
+if(isNaN(n1) || isNaN(n2)){ //isNaN serve para verificar se o que foi atribuido as variaveis entre parenteses são números
 	isValid = false;
 }
 
@@ -39,6 +41,8 @@ if (media >=7 && qtdFaltas <=10){
     // console.log(typeof(aprovado)) exibir no console tipo da variável
 }
 
+// Primeiro bloco de if else atribui valores booleanos as variáveis
+
 if (aprovado === true){
     alert("Aprovado")
 }else if(recuperacao === true){
@@ -48,6 +52,8 @@ if (aprovado === true){
 }else{
     alert("Reprovado");
 }
+
+//Segundo bloco de if else mostra por meio do alert por meio das valores das variáveis definidas no bloco anterior
 
 //testando negação
 
