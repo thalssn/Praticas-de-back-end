@@ -12,5 +12,5 @@ for(i=0; i<5; i++){
     }
 }
 
-document.write(`A soma dos números: ${soma}<br>`)
+document.write(`A soma dos números ímpares: ${soma}<br>`)
 document.write(`[${impares}]`)
