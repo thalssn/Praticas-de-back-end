@@ -1,6 +1,6 @@
 const carro = {
     marca: prompt("Qual marca do carro? "),
-    categoria: prompt("Qual ategoria do carro? "),
+    categoria: prompt("Qual categoria do carro? "),
     ano: Number(prompt("Qual ano do carro? ")),
     cor: prompt("Qual cor do carro? "),
     motor:prompt("Qual tipo de motor do carro? "),
